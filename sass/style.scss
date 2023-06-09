@@ -13,92 +13,293 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
-    padding: 25px 50px;
-    gap: 30px;
+    padding: 25px 100px;
 
-    .blog1 {
+    .father__header {
         display: flex;
-        align-items: center;
         gap: 30px;
 
-        .text2 {
+        .blog1 {
             display: flex;
-            flex-direction: column;
-            gap: 20px;
+            align-items: center;
+            gap: 30px;
 
-            select {
-                padding: 5px;
-                border: none;
-            }
-
-            button {
+            .text2 {
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                flex-direction: column;
                 gap: 20px;
-                padding: 10px 10px;
-                background-color: #1C69D4;
-                border: none;
-                border-radius: 4px;
-                font-weight: 700;
-                font-size: 13px;
-                color: #FFFFFF;
+
+                p {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #222222;
+                    padding: 5px;
+                    border: none;
+                    display: flex;
+                    justify-content: space-between;
+
+                    span {
+                        display: none;
+                    }
+                }
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    padding: 20px 60px;
+                    background-color: #1C69D4;
+                    border: none;
+                    border-radius: 4px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                }
             }
         }
-    }
 
-    .blog2 {
-        .text3 {
+        .blog2 {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 100px;
+            flex-direction: column;
+            width: 1450px;
+            gap: 18px;
 
-            ul {
+            .text3 {
                 display: flex;
+                gap: 350px;
                 align-items: center;
-                justify-content: center;
-                gap: 20px;
 
-                .word1 {
-                    a {
+                .nomer {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 50px;
+
+                    p {
                         font-weight: 800;
-                        font-size: 15px;
+                        font-size: 25px;
                         color: #222222;
                         text-decoration: none;
                     }
-                }
 
-                .word2 {
-                    a {
-                        font-weight: 600;
-                        font-size: 15px;
-                        color: #222222;
-                        text-decoration: none;
+                    ul {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+
+                        .word2 {
+                            a {
+                                font-weight: 600;
+                                font-size: 15px;
+                                color: #222222;
+                                text-decoration: none;
+                            }
+                        }
+
+                        li {
+                            a {
+                                font-weight: 400;
+                                font-size: 15px;
+                                color: #222222;
+                                text-decoration: none;
+                            }
+                        }
                     }
                 }
 
-                li {
-                    a {
-                        font-weight: 400;
-                        font-size: 13px;
-                        color: #222222;
-                        text-decoration: none;
+                .text4 {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+
+                    li {
+                        a {
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #222222;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
 
-            .text4 {
-                display: flex;
-                li {
-                    a {
-                        font-weight: 400;
-                        font-size: 14px;
-                        color: #222222;
-                    }
+            .text5 {
+                input {
+                    width: 100%;
+                    padding: 15px 20px;
+                    background: #FFFFFF;
+                    border: 1px solid #BBBBBB;
+                    border-radius: 4px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #999999;
                 }
             }
         }
     }
 }
+
+
+// ==========Header==========
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 50px;
+
+    main {
+        width: 95%;
+        height: 540px;
+        background-image: url(./img/Rectangle5.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relativegit ;
+
+        .text6 {
+            width: 310px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 262px;
+
+            .text7 {
+                h2 {
+                    padding: 15px 0;
+                    font-weight: 700;
+                    font-size: 42px;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    display: flex;
+                    gap: 30px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #222222;
+                }
+            }
+
+            .text9 {
+                width: 100px;
+                h1 {
+                    font-weight: 300;
+                    font-size: 65px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .text10{
+            .box__1{
+                width: 460px;
+                height: 216px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media (max-witdh: 1600px) {
+//     header {
+//         .father__header {
+//             display: flex;
+//             gap: 30px;
+
+//             .blog1 {
+
+//                 .text2 {
+//                     span {
+//                         display: block;
+//                     }
+//                 }
+//             }
+
+//             .blog2 {
+//                 width: 1000px;
+//             }
+//         }
+//     }
+// }
+
+// @media (max-witdh: 1280px) {
+//     header {
+//         width: 100%;
+//         padding: 25px 30px;
+
+//         .father__header {
+//             width: 100%;
+//             display: flex;
+//             justify-content: center;
+
+//             .blog2 {
+//                 .text3 {
+//                     display: flex;
+//                     align-items: center;
+//                     gap: 50px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-witdh: 960px) {
+//     header {
+//         .father__header {
+//             .blog2 {
+//                 .tag {
+//                     display: block;
+//                 }
+//             }
+//         }
+//     }
+// }

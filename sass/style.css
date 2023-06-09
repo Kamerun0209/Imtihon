@@ -9,72 +9,159 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
-  padding: 25px 50px;
+  padding: 25px 100px;
+}
+header .father__header {
+  display: flex;
   gap: 30px;
 }
-header .blog1 {
+header .father__header .blog1 {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-header .blog1 .text2 {
+header .father__header .blog1 .text2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-header .blog1 .text2 select {
+header .father__header .blog1 .text2 p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #222222;
   padding: 5px;
   border: none;
+  display: flex;
+  justify-content: space-between;
 }
-header .blog1 .text2 button {
+header .father__header .blog1 .text2 p span {
+  display: none;
+}
+header .father__header .blog1 .text2 button {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 10px 10px;
+  padding: 20px 60px;
   background-color: #1C69D4;
   border: none;
   border-radius: 4px;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 20px;
   color: #FFFFFF;
 }
-header .blog2 .text3 {
+header .father__header .blog2 {
+  display: flex;
+  flex-direction: column;
+  width: 1450px;
+  gap: 18px;
+}
+header .father__header .blog2 .text3 {
+  display: flex;
+  gap: 350px;
+  align-items: center;
+}
+header .father__header .blog2 .text3 .nomer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 100px;
+  gap: 50px;
 }
-header .blog2 .text3 ul {
+header .father__header .blog2 .text3 .nomer p {
+  font-weight: 800;
+  font-size: 25px;
+  color: #222222;
+  text-decoration: none;
+}
+header .father__header .blog2 .text3 .nomer ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-header .blog2 .text3 ul .word1 a {
-  font-weight: 800;
-  font-size: 15px;
-  color: #222222;
-  text-decoration: none;
-}
-header .blog2 .text3 ul .word2 a {
+header .father__header .blog2 .text3 .nomer ul .word2 a {
   font-weight: 600;
   font-size: 15px;
   color: #222222;
   text-decoration: none;
 }
-header .blog2 .text3 ul li a {
+header .father__header .blog2 .text3 .nomer ul li a {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   color: #222222;
   text-decoration: none;
 }
-header .blog2 .text3 .text4 {
+header .father__header .blog2 .text3 .text4 {
   display: flex;
+  gap: 20px;
+  align-items: center;
 }
-header .blog2 .text3 .text4 li a {
+header .father__header .blog2 .text3 .text4 li a {
   font-weight: 400;
   font-size: 14px;
   color: #222222;
+  text-decoration: none;
+}
+header .father__header .blog2 .text5 input {
+  width: 100%;
+  padding: 15px 20px;
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 50px;
+}
+section main {
+  width: 95%;
+  height: 540px;
+  background-image: url(./img/Rectangle5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relativegit;
+}
+section main .text6 {
+  width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 262px;
+}
+section main .text6 .text7 h2 {
+  padding: 15px 0;
+  font-weight: 700;
+  font-size: 42px;
+  color: #FFFFFF;
+}
+section main .text6 .text7 p {
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #222222;
+}
+section main .text6 .text9 {
+  width: 100px;
+}
+section main .text6 .text9 h1 {
+  font-weight: 300;
+  font-size: 65px;
+  color: #FFFFFF;
+}
+section main .text10 .box__1 {
+  width: 460px;
+  height: 216px;
 }/*# sourceMappingURL=style.css.map */
